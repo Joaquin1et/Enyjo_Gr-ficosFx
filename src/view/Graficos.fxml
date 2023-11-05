@@ -37,10 +37,13 @@
                               <Insets top="25.0" />
                            </VBox.margin>
                         </Label>
-                        <TextField fx:id="userLogin" alignment="CENTER" onKeyTyped="#usuarioKey">
+                        <TextField fx:id="txt_userLogin" alignment="CENTER" onKeyTyped="#usuarioKey">
                            <VBox.margin>
                               <Insets left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
                         </TextField>
                         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="291.0" text="Password" textFill="WHITE">
                            <font>
@@ -50,10 +53,13 @@
                               <Insets top="10.0" />
                            </VBox.margin>
                         </Label>
-                        <PasswordField fx:id="passwordLogin" onKeyTyped="#passwordLogin">
+                        <PasswordField fx:id="txt_passwordLogin" alignment="CENTER" onKeyTyped="#passwordLogin">
                            <VBox.margin>
                               <Insets left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
+                           <font>
+                              <Font size="14.0" />
+                           </font>
                         </PasswordField>
                         <Button fx:id="btn_login" mnemonicParsing="false" onAction="#login" prefHeight="23.0" prefWidth="95.0" text="ENTRAR">
                            <font>
